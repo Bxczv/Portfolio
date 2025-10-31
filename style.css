@@ -1,0 +1,176 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #2c3e50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+    transition: color 0.3s ease;
+}
+
+/* Home Section */
+#home {
+    padding: 60px;
+    background-color: white;
+    text-align: center;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #1abc9c;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+.intro-text h1 {
+    color: #2c3e50;
+}
+
+.intro-text h3 {
+    color: #1abc9c;
+}
+
+.intro-text p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Education Section */
+#education {
+    background-color: #ecf0f1;
+    padding: 40px;
+}
+
+#education h2 {
+    color: #2c3e50;
+}
+
+.edu-details p {
+    margin: 8px 0;
+}
+
+/* Hobbies Section */
+#hobbies {
+    background-color: #fff;
+    padding: 40px;
+}
+
+#hobbies h2 {
+    color: #2c3e50; 
+}
+
+.hobby-list {
+    max-width: 600px;
+    list-style: square;
+    line-height: 1.8;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ecf0f1;
+    padding: 40px;
+}
+
+#contact h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.form-buttons input {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1abc9c;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-buttons input:hover {
+    background-color: #16a085;
+    transition: background-color 0.3s ease;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
